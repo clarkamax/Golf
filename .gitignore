@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets — NEVER commit these
+.env
+.env.local
+*.local
+
+# Google service-account credentials
+service-account.json
+google-credentials*.json
+*-service-account*.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
